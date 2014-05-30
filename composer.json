@@ -1,0 +1,28 @@
+{
+	"name": "meerkat/meerkat-event",
+	"type": "kohana-module",
+	"description": "Event module for MeerkatCMF (on Kohana 3.3)",
+	"homepage": "http://github.com/meerkat/core",
+	"license": "MIT",
+	"keywords": ["kohana", "module", "meerkat"],
+	"authors": [
+			{
+				"name": "Fabien Potencier",
+				"email": "fabien.potencier@symfony-project.com",
+				"role": "Developers"
+			}, 
+			{
+				"name": "Alexey Berdnikov",
+				"email": "aberdnikov@gmail.com",
+				"homepage": "https://github.com/aberdnikov",
+				"role": "Module maintainer"
+			}
+	],
+	"require": {
+		"php": ">=5.3",
+		"composer/installers": "*"
+	},
+	"include-path": [
+		"vendor"
+	] 	
+}
